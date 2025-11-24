@@ -14,7 +14,7 @@ namespace OpenTK_winforms_z02
         public Vector4 Diffuse { get; set; }
         public Vector4 Specular { get; set; }
 
-        // Proprietati noi pentru atenuare (Conform Slide 10 - Attenuation of light)
+        // Proprietati noi pentru atenuare 
         // Valori default pentru nicio atenuare: Constant=1, Linear=0, Quadratic=0
         public float ConstantAttenuation { get; set; } = 1.0f;
         public float LinearAttenuation { get; set; } = 0.0f;
