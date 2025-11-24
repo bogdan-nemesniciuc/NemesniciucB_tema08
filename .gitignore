@@ -1,0 +1,7 @@
+# Ignore Visual Studio config, cache, and build output
+.vs/
+*/bin/
+*/obj/
+packages/
+*.user
+*.suo
